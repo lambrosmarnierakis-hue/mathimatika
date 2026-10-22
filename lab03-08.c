@@ -1,7 +1,9 @@
 #include <stdio.h>
 int main ()
 {
-	printf("onoma: lampros marnierakis\n");
-	printf("AM: 2026202600080\n");
+	char onoma[]=("lambros marnierakis");
+	int am=9186391;
+	printf("o xaraktiras einai o %s\n",onoma);
+	printf("i thesi tou einai i %d \n", am);
 	return 0;
 }
